@@ -1,5 +1,6 @@
 
 url - http://localhost:8080/RestFulWebServiceExample/employee/1/get/
+<? Xml version='1.0' encoding='utf-8' standalone='yes'? >
 <emp_id>1</emp_id>
 
  <emp_age>2</emp_age>
