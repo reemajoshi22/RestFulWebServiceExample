@@ -1,0 +1,16 @@
+
+url - http://localhost:8080/RestFulWebServiceExample/employee/1/get/
+<emp_id>1</emp_id>
+
+ <emp_age>2</emp_age>
+
+  <emp_first_name>dummy</emp_first_name>
+
+    <emp_last_name>dummy</emp_last_name>
+
+    <employee_dept>cse</employee_dept>
+
+    <employee_salary>10.00</employee_salary>
+
+
+    url : http://localhost:8080/RestFulWebServiceExample/hello/
