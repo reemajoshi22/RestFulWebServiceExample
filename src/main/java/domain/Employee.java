@@ -2,23 +2,25 @@ package domain;
 
 import lombok.Data;
 import lombok.ToString;
+import org.codehaus.jackson.annotate.JsonProperty;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
 //@Data
 @ToString
-@XmlRootElement(name="Employee")
+//@XmlRootElement(name="Employee")
 public class Employee {
+    @JsonProperty
     int emp_id;
-
+    @JsonProperty
     int emp_age;
-
+    @JsonProperty
     String emp_first_name;
-
+    @JsonProperty
     String emp_last_name;
-
+    @JsonProperty
     String employee_dept;
-
+    @JsonProperty
     Float employee_salary;
 
     public int getEmp_id() {

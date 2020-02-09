@@ -1,17 +1,22 @@
 
-url - http://localhost:8080/RestFulWebServiceExample/employee/1/get/
-<? Xml version='1.0' encoding='utf-8' standalone='yes'? >
+url - http://localhost:8080/RestFulWebServiceExample/employee/add
+ to add an employee post request :
+<Employee>
 <emp_id>1</emp_id>
-
- <emp_age>2</emp_age>
-
-  <emp_first_name>dummy</emp_first_name>
-
-    <emp_last_name>dummy</emp_last_name>
-
-    <employee_dept>cse</employee_dept>
-
-    <employee_salary>10.00</employee_salary>
-
+<emp_age>2</emp_age>
+<emp_first_name>dummy</emp_first_name>
+<emp_last_name>dummy</emp_last_name>
+<employee_dept>cse</employee_dept>
+<employee_salary>10.00</employee_salary>
+</Employee>
 
     url : http://localhost:8080/RestFulWebServiceExample/hello/
+
+    {
+       "emp_id": "3",
+       "emp_age": "2",
+       "emp_first_name": "dummy",
+       "emp_last_name": "dummy",
+       "employee_dept": "cse",
+       "employee_salary": "10.00"
+    }

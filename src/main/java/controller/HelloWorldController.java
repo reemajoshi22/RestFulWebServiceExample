@@ -7,8 +7,9 @@ import javax.ws.rs.Path;
 public class HelloWorldController {
 
     @GET
+    @Path("/hello")
     public String getMessage()  {
         System.out.println("hello");
-        return "Hello World : Reema";
+        return "Helo World : Reema";
     }
 }
